@@ -1,0 +1,1 @@
+This landing page project comes from The Odin Project and will demonstrate my HTML and CSS skills along with showcasing my flexbox knowledge and skills.

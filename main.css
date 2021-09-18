@@ -35,6 +35,7 @@ time, mark, audio, video {
     height: 10vh;
     align-items: center;
     font-family: "Roboto";
+    padding: 10px 30px 10px 30px;
 }
 nav li {
     list-style: none;
@@ -53,6 +54,7 @@ h1 {
     display: flex;
     background-color: #1f2937;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .title {
@@ -103,7 +105,8 @@ h1 {
     justify-content: center;
     align-items: center;
     font-family: "Roboto";
-    margin: 15px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .empty {
@@ -120,6 +123,7 @@ h1 {
     align-items: center;
     text-align: center;
     gap: 20px;
+    margin: 10px;
 }
 
 .info h2 {
@@ -127,4 +131,79 @@ h1 {
     font-size: 36px;
     font-weight: 900;
     padding: 10px;
+}
+
+.quote {
+    height: 25vh;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor-quote {
+    width: 80%;
+}
+
+.quote q {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.action {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to {
+    background-color: #3882f6;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-family: "Roboto";
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.call h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call {
+    width: 60%;
+}
+
+.action-button {
+    border: #e5e7eb 2px solid;
+    border-radius: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    height: 40%;
+    width: 20%;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-family: "Roboto";
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
